@@ -1,6 +1,7 @@
 # 网站转TXT工具 - Android版 📱
 [![Python](https://img.shields.io/badge/Python-3.6+-blue?logo=python&logoColor=white)](https://python.org)
 [![QQ群](https://img.shields.io/badge/QQ交流群-985373528-blue)](https://qun.qq.com/universal-share/share?ac=1&authKey=93R53wEA4EQpWW5WmZlEkoBWLmr8OP%2FXNh3P05QAfD%2BlJksecR%2Bh6C%2BQ4etuwdmv&busi_data=eyJncm91cENvZGUiOiI5ODUzNzM1MjgiLCJ0b2tlbiI6ImJCMndSbFMvZEN4OHY2b3ZHckUvSWlnQ3NHZ3g5b1dDM2R5emplang5RU5uNndLREZmUER1S3d4TXBGbGpoc3QiLCJ1aW4iOiIzMDIxMjIwOTkwIn0%3D&data=GaAYD3hoxugGVkxjslmorguKaSU0tUAkbLn5s3AsO4DbHop3LqbLDkTCsWsOciUUNkwpzSXwy5y30d4leXuCWg&svctype=4&tempid=h5_group_info)
+
 一个专为Android设备设计的Python脚本，可将任意网页内容提取为纯文本TXT文件，自动创建专用文件夹管理所有转换文件。
 
 ## ✨ 功能特点
@@ -27,4 +28,8 @@
 #### 方法一：使用Pydroid 3（推荐新手）
 1. 从Google Play安装[Pydroid 3](https://play.google.com/store/apps/details?id=ru.iiec.pydroid3)
 2. 打开Pydroid 3，点击左上角菜单 → Pip
-3. 安装依赖包：
+3. 安装依赖包，输入以下命令：
+
+```bash
+pip install requests
+pip install chardet
